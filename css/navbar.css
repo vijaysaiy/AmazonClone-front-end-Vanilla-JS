@@ -1,0 +1,99 @@
+nav {
+    background: black;
+    position: sticky;
+    align-items: center;
+    z-index: 1;
+  }
+  nav:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  nav .logo {
+    margin-top: 15px;
+    float: left;
+    size: 150px;
+  }
+  nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+  }
+  nav ul li {
+    float: left;
+    background: black;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+  nav ul li a:hover {
+    /* color: cyan; */
+    color: white;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px #33ffff, 0 0 5px #33ffff; */
+    box-shadow: 0 0 5px white, 0 0 5px white;
+  }
+  nav ul ul li a:hover {
+    color: cyan;
+    box-shadow: none;
+  }
+  nav ul ul {
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+  }
+  nav ul li:hover > ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul ul li {
+    position: relative;
+    margin: 0;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: ipx solid rgba(0, 0, 0, 0.3);
+  }
+  nav ul ul li a {
+    line-height: 50px;
+  }
+ 
+  
+  nav ul .search-box input {
+    margin-top: 22px;
+    height: 100%;
+    width: 80%;
+    border: 1px solid white;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 5px;
+  }
+  nav ul .search-box label{
+    position:absolute;
+  }
+  #basket-count{
+    color:white;
+    margin-top:30px;
+    margin-left:-20px;
+    z-index:-1;
+    text-decoration: none;
+    cursor:pointer;
+}
+  /* -----nav bar ends ------------*/
+  @media screen and (min-width:100%) {
+    nav{
+        padding:1.5rem 14rem!important;
+    }
+}

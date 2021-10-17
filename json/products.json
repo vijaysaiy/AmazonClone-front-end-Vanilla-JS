@@ -1,0 +1,152 @@
+{
+  "mobiles": [
+    {
+      "name": "Samsung Galaxy M12  (Blue, 6GB RAM, 128GB Storage)",
+      "imgSrc": "product-images/samsung-m12.jpg",
+      "price": "9999",
+      "mrp": "12999",
+      "save": "3500"
+    },
+    {
+      "name": "Samsung Galaxy M32 5G (Sky Blue, 6GB RAM, 128GB Storage)",
+      "imgSrc": "product-images/samsung-m32.jpg",
+      "price": "10999",
+      "mrp": "15999"
+    },
+    {
+      "name": "Samsung Galaxy S20 FE 5G (Cloud Navy, 8GB RAM, 128GB Storage)",
+      "imgSrc": "product-images/samsung-s20.jpg",
+      "price": "10999",
+      "mrp": "22999"
+    },
+    {
+      "name": "Redmi 9 (Sky Blue, 4GB RAM, 64GB Storage)",
+      "imgSrc": "product-images/redmi-9a.jpg",
+      "price": "8499",
+      "mrp": "10999",
+      "save": "2500"
+    },
+    {
+      "name": "Redmi 9a (Midnight Black, 4GB RAM, 64GB Storage)",
+      "imgSrc": "product-images/redmi-9a-black.jpg",
+      "price": "6499",
+      "mrp": "8499",
+      "save": "1500"
+    },
+    {
+      "name": "Redmi Note 10S (Cosmic Purple, 6GB RAM, 64 GB Storage)",
+      "imgSrc": "product-images/redminote-10s.jpg",
+      "price": "13999",
+      "mrp": "16999",
+      "save": "3000"
+    },
+    {
+      "name": "OnePlus Nord 2 5G (Blue Haze, 8GB RAM, 128GB Storage)",
+      "imgSrc": "product-images/oneplus-nord-2.jpg",
+      "price": "29999",
+      "mrp": "32999",
+      "save": "3000"
+    },
+    {
+      "name": "OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)",
+      "imgSrc": "product-images/oneplus-nord-ce.jpg",
+      "price": "24999",
+      "mrp": "28999",
+      "save": "3000"
+    },
+    {
+      "name": "Apple iPhone 11 (128GB) - Black",
+      "imgSrc": "product-images/iphone-11.jpg",
+      "price": "46999",
+      "mrp": "54999",
+      "save": "3000"
+    }
+  ],
+  "earphones": [
+    {
+      "name": "Oneplus Wireless Neckband Earphones(Black)",
+      "imgSrc": "product-images/headset-1.jpg",
+      "price": "29999"
+    },
+    {
+      "name": "Oneplus Wireless Neckband Earphones(Red)",
+      "imgSrc": "product-images/headset-2.jpg",
+      "price": "29999"
+    },
+    {
+      "name": "Oneplus Wireless Neckband Earphones(Blue)",
+      "imgSrc": "product-images/headset-3.jpg",
+      "price": "29999"
+    },
+    {
+      "name": "Oneplus Wireless Earpods(White)",
+      "imgSrc": "product-images/headset-4.jpg",
+      "price": "49999"
+    },
+    {
+      "name": "Oneplus Wireless Earphones(White)",
+      "imgSrc": "product-images/headset-5.jpg",
+      "price": "49999"
+    }
+  ],
+
+  "accesories": [
+    {
+      "name": "boAt Rugged v3 Unbreakable Braided Micro USB Cable  (Black)",
+      "imgSrc": "product-images/cable-1.jpg",
+      "price": "149"
+    },
+    {
+      "name": "Mi Micro USB Cable (120cm, USB Type A, Black))",
+      "imgSrc": "product-images/cable-2.jpg",
+      "price": "229"
+    },
+    {
+      "name": "boAt Micro USB 55 Tangle-Free Data Cable ",
+      "imgSrc": "product-images/cable-3.jpg",
+      "price": "99"
+    },
+    {
+      "name": "Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods)",
+      "imgSrc": "product-images/adapter-1.jpg",
+      "price": "1899"
+    },
+    {
+      "name": "Portronics Adapto 22 Quick Charger USB Wall Adapter  (Black)",
+      "imgSrc": "product-images/adapter-2.jpg",
+      "price": "309"
+    },
+    {
+      "name": "oraimo Firefly-2S  Dual USB Fast Wall Charger and Micro-USB Cable",
+      "imgSrc": "product-images/adapter-4.jpg",
+      "price": "309"
+    },
+    {
+      "name": "pTron Volta Evo 12W Dual USB Smart Charger, (White))",
+      "imgSrc": "product-images/adapter-5.jpg",
+      "price": "169"
+    },
+    {
+      "name": "Samsung SD Card 64GB",
+      "imgSrc": "product-images/sdcart.jpg",
+      "price": "569"
+    },
+    {
+      "name": "Oneplus Powerbank(10000mah)",
+      "imgSrc": "product-images/powerbank1.jpg",
+      "price": "1499"
+    },
+
+    {
+      "name": "Oneplus Smart Watch(White)",
+      "imgSrc": "product-images/watch-1.jpg",
+      "price": "2499"
+    },
+
+    {
+      "name": "Oneplus Smart Band(Black)",
+      "imgSrc": "product-images/watch-2.jpg",
+      "price": "1499"
+    }
+  ]
+}

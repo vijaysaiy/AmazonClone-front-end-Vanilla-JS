@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.webp"" width="150px" /></a>
+        </div>
+        <ul>
+          <li class="product-option">
+            <a href="products.html">Products</a>
+            <ul>
+              <li>
+                <a href="products.html" onclick="option(event);" class="mobiles"
+                  >Mobiles</a
+                >
+              </li>
+              <li>
+                <a
+                  href="products.html"
+                  onclick="option(event);"
+                  class="accesories"
+                  >Accesories</a
+                >
+              </li>
+              <li>
+                <a
+                  href="products.html"
+                  onclick="option(event);"
+                  class="earphones"
+                  >Earphones</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="search-box">
+            <input type="search" placeholder="Search" />
+            <label class="search-icon">
+              <a href=""><span class="fas fa-search"></span></a>
+            </label>
+          </li>
+          <li class="account">
+            <a>Account</a>
+            <ul>
+              <li><a href="login.html">Sign in</a></li>
+              <li><a href="signup.html">sign Up</a></li>
+            </ul>
+          </li>
+          <li class="basket">
+            <a href="checkout.html"
+              ><span class="fas fa-cart-arrow-down"></span
+            ></a>
+          </li>
+          <li id="basket-count">0</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="checkout">
+        <div class="checkout-left">
+          <img
+            class="checkout-ad"
+            src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668.jpg"
+            alt=""
+          />
+          <div class="checkout-container">
+            <h2 class="checkout-title">Your Shopping Cart</h2>
+            <div class="list">
+              
+              <!-- basket items fetched from cart -->
+            </div>
+          </div>
+        </div>
+        <div class="checkout-right">
+          <div class="subtotal">
+            <h3>Subtotal</h3>
+            <p class="total"></p>
+            <small class ="gift">
+              <input type="checkbox"/>This order Contains a gift
+            </small>
+            <button class="buy-btn">Proceed to buy</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press Releases</a></li>
+              <li><a href="#">Amazon Cares</a></li>
+              <li><a href="#">Gift a Smile</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Make Money with Us</h4>
+            <ul>
+              <li><a href="#">Sell on webex</a></li>
+              <li><a href="#">Amazon Global Selling</a></li>
+              <li><a href="#">Become an affiliate</a></li>
+              <li><a href="#">Fullfilment by Amazon</a></li>
+              <li><a href="#">Advertise Your Products</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Let Us Help You</h4>
+            <ul>
+              <li><a href="#">COVID-19 and Amazon</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Return Center</a></li>
+              <li><a href="#">100% Purchase Protection</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect With Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/checkout.js"></script>
+  </body>
+</html>
